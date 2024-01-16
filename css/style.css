@@ -1,0 +1,64 @@
+/* css/style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(243, 243, 243);
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/* navbar logo */
+.navbar img {
+  margin-right: 10px; 
+}
+
+/* content */
+.card {
+  margin: 50px 50px;
+}
+
+.shape-form {
+  margin-top: 20px;
+}
+
+#shapeSelect {
+  width: 300px; 
+}
+
+/* card content */
+.custom-card {
+  width: 500px; /* Adjust the width as needed */
+  border: 1px solid #007bff; /* Add this line to set the border */
+  margin: 20px 20px 20px 20px;
+}
+
+.card-body {
+  /* Optional: Add padding to the card body */
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected-shape {
+  margin-top: 20px;
+  position: relative;
+}
+
+.title-background {
+  background-color: #007bff; /* Change to your desired color */
+  padding: 20px;
+  color: #fff;
+}
+
+.shape-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
